@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Play&family=Secular+One&family=Signika:wght@300&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0%;
+}
+
+.background{
+    height: auto;
+    width: 100%;
+    display: flex;
+    position: relative;
+}
+
+.background-img{
+    height: 220px;
+    width: 100%;
+    opacity: 0.7;
+}
+
+.logo{
+    height: auto;
+    width: 100%;
+    position: absolute;
+    text-align: left;
+    top: 10%;
+}
+
+.logo h1{
+    margin-left: 2%;
+    margin-top: 0%;
+    color: white;
+    font-family: 'Signika', sans-serif;
+}
+
+.logo img{
+    height: 100px;
+    width: 100px;
+    margin-left: 2%;
+    margin-top: 5px;
+    margin-bottom: 0%;
+}
+
+.menu{
+    display: flex;
+    background-color: black;
+    justify-content: center;
+}
+
+.menu a{
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+    padding: 15px 30px;
+    border: 5px solid black;
+    margin-right: 1%;
+}
+
+.menu a:hover{
+    border-top: white 5px solid;
+}
+
+.cabecalho{
+    text-align: center;
+}
+.cabecalho h1{
+    font-size: 60px;
+    font-family: 'Signika', sans-serif;
+}
+.cabecalho h2{
+    font-size: 45px;
+    font-family: 'Signika', sans-serif;
+}
+
+.container{
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    /*background-color: gray; */
+}
+
+.sub{
+    height: auto;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 12px;
+}
+
+.card{
+    height: auto;
+    flex: 30%;
+    text-align: center;
+    margin: 3%;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgb(0,0,0,0.2), 0 6px 20px 0 rgb(0,0,0,0.19);
+}
+
+.card img{
+    width: 62%;
+    height: 280px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+.card p{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    padding-bottom: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.card:hover p{
+    white-space: normal;
+}
+
+.roda{
+    margin-top: 100px;
+    width: 100%;
+    height: auto;
+    background-image: linear-gradient(180deg, rgb(24, 53, 245), rgb(3, 0, 162));
+    border-top: 4px solid rgb(6, 76, 228);
+    text-align: center;
+}
+
+.roda .texto-roda{
+    padding: 70px;
+}
