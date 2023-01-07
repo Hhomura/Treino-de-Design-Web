@@ -78,31 +78,30 @@ body{
 .container{
     height: auto;
     width: 100%;
-    display: flex;
-    justify-content: space-around;
-    /*background-color: gray; */
+    display: inline-block;
+    text-align: center;
+    /*border: gray solid 2px;*/
 }
 
 .sub{
     height: auto;
-    width: 25%;
-    display: flex;
-    flex-direction: column;
-    margin-top: 12px;
+    width: 220px;
+    display:inline-block;
+    margin: 1%;
+    /*border: 2px solid green; */
 }
 
 .card{
     height: auto;
-    flex: 30%;
+    margin: 4%;
     text-align: center;
-    margin: 3%;
     overflow: hidden;
     box-shadow: 0 4px 8px rgb(0,0,0,0.2), 0 6px 20px 0 rgb(0,0,0,0.19);
 }
 
 .card img{
     width: 62%;
-    height: 280px;
+    height: 170px;
     margin-top: 10px;
     border-radius: 10px;
 }
